@@ -60,19 +60,12 @@ If you have any questions, feel free to reply to this mail or send a mail to our
 Good luck,
 skinCare sales team
 ```
-
-Analyze the customer's request.
-The dataset provided by the client can be found here: https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
-
-Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcinoma", "Actinic keratosis / Bowen’s disease (intraepithelial carcinoma)", "Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)", "Dermatofibroma", and "Vascular lesion". Approximately 10,000 images provided for training, 200 for validation, 1500 for test.
-
-
 ### Input
 
 The dataset provided by the client can be found here: https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcinoma", "Actinic keratosis / Bowen’s disease (intraepithelial carcinoma)", "Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)", "Dermatofibroma", and "Vascular lesion". Approximately 10,000 images provided for training, 200 for validation, 1500 for test.
-```
+
 ## Model
 <p align="center"><img src="model.JPG" alt="Logo" width="200" height="200"></p>
 
