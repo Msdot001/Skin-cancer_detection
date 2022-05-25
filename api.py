@@ -27,8 +27,9 @@ def predict_label(img_path):
     i = image.img_to_array(i)/255.0
     i = i.reshape(1, 75,100,3)
     p = model.predict(i)
+    print(p, lesion_type_dict[np.argmax(p[0])])
     #creturn lesion_type_dict[p[0]]
-    return lesion_type_dict[np.argmax(p[0])]
+    return lesion_type_dict[np.argmax(p[0])] +" % " + str(np.around(np.amax(p[0]),2))
 
 # routes
 @app.route("/", methods=['GET', 'POST'])
@@ -50,6 +51,7 @@ def get_output():
 		p = predict_label(img_path)
 
 	return render_template("index.html", prediction = p, img_path = img_path)
+
 
 
 if __name__ =='__main__':
