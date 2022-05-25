@@ -8,7 +8,7 @@
   
 ## Project Pipeline:
 * <a><strong>Pipeline for Deploying Deep Learning(Convolutional Neural Networks)</strong></a>
-<p align="center"><img src="https://media.springernature.com/lw685/springer-st…9865-y/MediaObjects/10462_2020_9865_Fig1_HTML.png" alt="Logo" width="600" height="300"></p>
+<p align="center"><img src="https://www.mdpi.com/sensors/sensors-22-00496/article_deploy/html/images/sensors-22-00496-g030.png" alt="Logo" width="600" height="300"></p>
 
 # Project Overview
 
@@ -66,14 +66,14 @@ The dataset provided by the client can be found here: https://www.kaggle.com/kma
 Possible disease states are "Melanoma", "Melanocytic nevus", "Basal cell carcinoma", "Actinic keratosis / Bowen’s disease (intraepithelial carcinoma)", "Benign keratosis (solar lentigo / seborrheic keratosis / lichen planus-like keratosis)", "Dermatofibroma", and "Vascular lesion". Approximately 10,000 images provided for training, 200 for validation, 1500 for test.
 
 ## Model
-<p align="center"><img src="model_edit.png" alt="Logo" width="300" height="300"></p>
+<p align="center"><img src="model_edit.png" alt="Logo" width="300" height="400"></p>
 
 ## Result
 ### Loss/Accuracy vs Epoch
 <p align="center"><img src="CNN_Model.png" alt="Logo" width="300" height="300"></p>
 
 ### Model Accuracy
-<p align="center"><img src="REsult.png" alt="Logo" width="400" height="400"></p>
+<p align="center"><img src="REsult.png" alt="Logo" width="800" height="50"></p>
 
 ## Repo Architecture 
 
